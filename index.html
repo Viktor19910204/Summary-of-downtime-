@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Сводка о простоях</title>
+</head>
+<body>
+    <section class="summary">
+        <div class="container">
+            <h1 class="title">Сводка о простоях по техническим причинам плавмеханизации ВТПК 2022 г. за 15.08</h1>
+            <div class="summary__generalise">
+                <div class="summary__generalise-character">
+                    <div class="summary__generalise-characterblock">
+                        <div class="summary__generalise-charactername">Общее количество простоев по электрооборудованию</div>
+                        <div class="summary__generalise-charactervalue"></div>
+                    </div>
+                    <div class="summary__generalise-characterblock">
+                        <div class="summary__generalise-charactername">Общее количество простоев по причинам поломки ДВС</div>
+                        <div class="summary__generalise-charactervalue"></div>
+                    </div>
+                    <div class="summary__generalise-characterblock">
+                        <div class="summary__generalise-charactername">Общее количесвто простоев из-за технологического оборудования</div>
+                        <div class="summary__generalise-charactervalue"></div>
+                    </div>
+                </div>
+                <h2 class="title__month">Число простоев по месяцам</h2>
+                <div class="summary__generalise-month">
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Апрель</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Май</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Июнь</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Июль</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Август</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Сентябрь</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Октябрь</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                    <div class="summary__generalise-monthblock">
+                        <div class="summary__generalise-monthname">Ноябрь</div>
+                        <div class="summary__generalise-monthvalue"></div>
+                    </div>
+                </div>
+                <div class="summary__allhours">
+                    <h2 class="title__allhours">Общее число простоев за навигацию:</h2>
+                    <div class="summary__allhours-value"></div>
+                </div>
+            </div>
+            <div class="summary__wrap">
+                <div class="summary__row">
+                    <div class="summary__number-head">№</div>
+                    <div class="summary__meh-head">Наименование механизма</div>
+                    <div class="summary__start-head">Начало простоя</div>
+                    <div class="summary__end-head">Завершение простоя</div>
+                    <div class="summary__reason-head">Причина простоя</div>
+                    <div class="summary__enter">Подтверждение внесенных данных</div>
+                    <div class="summary__result">Время простоя с начала навигации</div>
+                    <div class="summary__delete">Удаление механизма</div>
+                </div>
+                <button class="btn append__btn">Добавить механизм</button>
+            </div>
+            <div class="summary__character">
+                <h2 class="summary__character-title">Выберите характер поломки:</h2>
+                <div class="summary__character-block">
+                    <button class="summary__character-btn">Электрооборудование</button>
+                    <button class="summary__character-btn">ДВС</button>
+                    <button class="summary__character-btn">Технологическое, крановое оборудование</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

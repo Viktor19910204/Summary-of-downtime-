@@ -1,0 +1,168 @@
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+}
+.summary__wrap {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.false__div {
+    width: 50px;
+}
+.summary__row {
+    height: 130px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.summary__number, .summary__number-head {
+    width: 1%;
+    text-align: center;
+}
+.summary__start-head, .summary__start {
+    width: 5%;
+    text-align: center;
+}
+.summary__end-head, .summary__end {
+    width: 5%;
+    text-align: center;
+}
+.summary__meh, .summary__meh-head {
+    width: 4%;
+    text-align: center;
+}
+.summary__reason-head, .summary__reason {
+    width: 30%;
+    text-align: center;
+}
+.summary__result {
+    width: 5%;
+    text-align: center;
+}
+.summary__enter {
+    width: 5%;
+    text-align: center;
+    margin-right: 10px;
+}
+.summary__delete {
+    width: 5%;
+    text-align: center;
+    margin-right: 20px;
+}
+.summary__start-input, .summary__end-input, .summary__reason-input {
+    width: 100%;
+    height: 20px;
+}
+
+.btn {
+    height: 30px;
+
+}
+.add {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+
+}
+
+.append__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.del__btn {
+    width: 80px;
+    height: 45px;
+}
+.btn__reason {
+    margin-top: 10px;
+}
+.summary__reason-text {
+    margin-top: 10px;
+    color: red;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.summary__character {
+    display: none;
+    margin: 0 auto;
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    background-color: rgba(34, 60, 80, 0.6);
+    box-shadow: -5px -5px 5px -5px;
+    border: 1px solid #3b4476;
+}
+.summary__character-title {
+    text-align: center;
+}
+
+.summary__character-block {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+.summary__character-btn {
+    display: block;
+    height: 40px;
+    width: 200px;
+}
+
+.summary__generalise {
+    width: 900px;
+    margin: 0 auto;
+}
+.summary__generalise-character {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px;
+}
+.summary__generalise-characterblock {
+    width: 230px;
+    text-align: center;
+    border: solid black 1px;
+}
+.summary__generalise-charactervalue {
+    margin: 10px 0 10px 0;
+
+}
+.summary__generalise-month {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.summary__generalise-monthvalue {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.title__month {
+    text-align: center;
+}
+.summary__allhours {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.summary__allhours-value {
+    font-size: 24px;
+    font-weight: bold;
+}
