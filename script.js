@@ -102,7 +102,7 @@ window.addEventListener('DOMContentLoaded', () => {
                                     
                                 }
                                 else {
-                                    reasonText.textContent = `${item[1].reason} c ${start} до ${end}`;
+                                    reasonText.textContent = `${item[1].reason}`;
                                 }
 
                                 start.append(inputStart);
